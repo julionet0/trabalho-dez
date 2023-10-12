@@ -190,3 +190,8 @@ a {color: inherit;
     width: 100px;
     height: 100px;
 }
+.Rodape p{
+    font-weight: bold;
+    color: white;
+
+}
