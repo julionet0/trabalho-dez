@@ -90,18 +90,18 @@ a {color: inherit;
     text-decoration: none;
 } 
 
-.banner1{
+.BanneSlider{
    display: flex;
    flex-direction: column;
     
 }
-.banner1 > img{
+.BanneSlider > img{
     justify-content:center;
     align-items: center;
     height: 430px;
     width: 100%;
 }
-.banner1 > img:hover{
+.BanneSlider > img:hover{
     cursor: pointer;
 
 }

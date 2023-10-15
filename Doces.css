@@ -82,6 +82,7 @@ header{
 .AbasReceitas >p {
     color: #000000;
     font-family: fonte1;
+    font-size: 18px;
 
 
 }
@@ -190,11 +191,14 @@ a {color: inherit;
 
 .Rodape {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     width: 100%;
     height: 130px;
     background-color: #59794C;
     gap: 49px;
+    margin: 0%;
 }
 .Rodape > img{
     width: 100px;
