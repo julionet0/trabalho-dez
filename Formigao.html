@@ -7,15 +7,19 @@
 </head>
 
 <body>
+
+   
     <header>
         <a href="/Formigao.html">
             <img class="Logo" src="LogoFormigao.png">
         </a>
 
+        <!--  
+
         <section class="BarraPesquisa">
             <input type="text" placeholder="Pesquise algo">
         </section>
-        
+    -->
         <div class="topicos">        
             <p>CONTATO</p>
             <p>LOJAS</p>
@@ -23,6 +27,10 @@
          </div>
     </header>
 
+    <section class="GhostHeader"></section>
+
+
+    
     <div class ="AbasReceitas">
         <p><a href ="Doces.html">Doces</a></p>
         <p><a href ="Salgados.html">Salgados</a></p>
@@ -33,59 +41,110 @@
         <p><a href ="Lanches.html">Lanches</a></p>
         <p><a href ="TodasReceitas.html">Todas as receitas</a></p>
     </div>
+    <section class="GhostAbaReceitas"></section>
 
-    <div class="BannerSlider"> 
-        <img src="banner1.png">
-    </div>   
 
-    <article class ="Titulo1">
-        <h1>RECEITAS DO DIA</h1>
-    </article>
 
-    <div class ="ReceitasDoDia">
-		<div class="Receitas Pastel">
-			<img class = "" src = "images/home/pastel.png">
-			<p>Pastel de carne caseiro</p>
-		</div>
-		
-		<div class="Receitas Bolo">
-			<img class = "Bolo" src="images/home/bolo-chocolate.png">
-			<p>Bolo de chocolate cremoso</p>
-		</div>
+    <div class="content">
+        <div class="slides">
+            <input class="input" type="radio" name="slide" id="slide1" checked>
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
 
-		<div class="Receitas Cocada">
-			<img class = "Cocada" src="images/home/cocada.png">
-			<p>Cocada branca caseira</p>
+            <div class="slide s1">
+                <img src="images/slider/SlideImg1.png" alt="">
+            </div>
+
+
+            <div class="slide">
+                <img src="images/slider/SlideImg2.png" alt="">
+            </div>
+
+
+            <div class="slide">
+                <img src="images/slider/SlideImg3.png" alt="">
+            </div>
         </div>
-	</div>
+    </div>
+  
+    <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+    </div>
 
-    <article class="Titulo2">
-        <h1>As mais famosas</h1>
+
+
+
+
+    <article class="Titulo1">
+        <h1>Receitas do dia</h1>
     </article>
 
-    <div class ="ReceitasDoDia">
-		<div class="Receitas lasanha">
-			<img class = "Lasanha" src = "images/home/lasanha.png">
-			<p>Lasanha bolonhesa</p>
+    <div class ="Doces">
+
+		<div class="Receitas Beijinho">
+			<img class = "Beijinho" src = "images/doces/Beijinho.png">
+			<p>Beijinho </p>
 		</div>
 		
-        <div class="Receitas Pudim">
-			<img class = "Pudim" src="images/home/pudim.png">
-			<p>Pudim de leite condensado</p>
+		<div class="Receitas TortaDeLimao">
+			<img class = "Bolo" src="images/doces/ArrozDoce.png">
+			<p>Arroz Doce</p>
 		</div>
 
-		<div class="Receitas Brigadeiro">
-			<img class = "Bolo" src="images/home/brigadeiro.png">
-			<p>Brigadeiro de festa</p>
+		<div class="Receitas TortaLimao">
+			<a href="/PagTortaDeLimao.html"><img class = "Cocada" src="images/doces/TortaDeLimao.png"></a>
+			<a href="/PagTortaDeLimao.html"><p>Torta de limão</p></a>
 		</div>
 
+        <div class="Receitas MousseMaracuja">
+			<img class = "MousseMaracuja" src="images/doces/MousseMaracuja.png">
+			<p>Mousse de maracujá</p>
 		</div>
+
+        <div class="Receitas Quindim">
+			<img class = "Quindim" src="images/doces/Quindim.png">
+			<p>Quindim</p>
+		</div>
+
 	</div>
 
+    <div class ="Doces">
+
+		<div class="Receitas Beijinho">
+			<img class = "PeDeMoleque" src = "images/doces/PeDeMoleque.png">
+			<p>Pé de moleque</p>
+		</div>
+		
+		<div class="Receitas TortaDeLimao">
+			<img class = "Sagu" src="images/doces/Sagu.png">
+			<p>Sagu</p>
+		</div>
+
+		<div class="Receitas MousseMaracuja">
+			<img class = "BoloDeLaranja" src="images/doces/BoloDeLaranja.png">
+			<p>Bolo de laranja</p>
+		</div>
+
+        <div class="Receitas MousseMaracuja">
+			<img class = "Pamonha" src="images/doces/Pamonha.png">
+			<p>Pamonha</p>
+		</div>
+
+        <div class="Receitas Quindim">
+			<img class = "PipocaDoce" src="images/doces/PipocaDoce.png">
+			<p>Pipoca doce</p>
+		</div>
+
+        
+		
+	</div>
     <footer class="Rodape">
-        <img class="LogoFooter" src="./LogoFormigao.png">
 
     </footer>
+
+    <script src="./script.js"> </script>
 </body>
 </html>
 

@@ -1,0 +1,157 @@
+*{
+    font-family: fonte1;
+}
+@font-face {
+    font-family: "fonte1";
+    src: url(./fonte-hbo.woff2);
+}
+body{
+    background-color:rgb(255, 255, 255);
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: #4e9b59;
+    flex-direction: row;
+    display: flex;
+    border-bottom: 0.5px solid rgb(202, 201, 201);
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+
+.BarraPesquisa:hover{
+    cursor: pointer;
+}
+.Logo{
+    width: 110px;
+    height: 110px;
+    padding-left: 90px;
+    margin-bottom: 10px;
+}
+
+.lupas{
+    width: 550px;
+    height: 90px;
+}
+
+.topicos{
+    display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+    font-family: fonte1;
+    gap: 100px;
+    padding: 0 20px;
+    padding-right: 5%;
+    
+    
+}
+.topicos >p:hover{
+
+    transform: scale(1.1);
+	transition: .1.5s;
+    cursor: pointer;
+    color: #ce770c;
+}
+.AbasReceitas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 17px;
+    border-bottom: 0.1px solid rgb(174, 174, 174);
+    box-shadow: 0px 5px 10px #9d9b9b;
+    background-color: #ffffff;
+}
+.AbasReceitas p {
+    color: #000000;
+    font-family: fonte1;
+}
+.AbasReceitas p:hover{
+    transform: scale(1.1);
+    transition: .1.5s;
+    color: #ce770c;
+    cursor: pointer;
+}
+a {color: inherit;
+    text-decoration: none;
+} 
+
+.IconRelogio{
+    width: 20px;
+    height: 20px;
+    padding-top: 114px;
+}
+.Titulo1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.Textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0%;
+}
+
+
+.Titulo1 h1{
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.Titulo1 h2{
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(75, 70, 70);
+}
+
+
+.DescBloco1{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.DescBloco1 h1, h2{
+    font-weight: 590;
+}
+
+.FotoComida{ 
+    width: 500px;
+    height: 340px;
+    border-radius: 10%;
+}
+.ingredientes h1{
+    font-size: 30px;
+    text-decoration: none;
+}
+.ingredientes h2{
+    font-size: 20px;
+
+}
+
+
+.Rodape {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    background-color: #59794C;
+    
+}
+.Rodape > img{
+    width: 100px;
+    height: 100px;
+}
+.Rodape p{
+    font-weight: bold;
+    color: white;
+
+}
